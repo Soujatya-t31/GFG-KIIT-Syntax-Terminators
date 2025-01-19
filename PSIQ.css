@@ -61,11 +61,15 @@
 }
 
 #name{
-    font-size: 40px;
+    padding: 20px;
+    display: flex;
+    font-size: 80px;
+    justify-content: center;
+    
 }
 #name input{
     padding: 8px;
-    height: 70px;
+    height: 80%;
     width: 600px;
     font-size: 30px;
     border-radius: 20px;
@@ -89,3 +93,4 @@ input[type="submit"] {
 input[type="submit"]:hover {
     background-color: #0056b3;
 }
+
